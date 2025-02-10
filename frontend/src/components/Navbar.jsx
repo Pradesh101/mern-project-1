@@ -28,14 +28,14 @@ const Navbar = () => {
         }}
       >
         <Text
-          fontSize={{ base: "32", sm: "28" }}
+          fontSize={{ base: "3xl", sm: "lg" }}
           fontWeight="bold"
           textTransform="uppercase"
           textAlign="center"
         >
           <Link to={"/"}>Product Store 🛒</Link>
         </Text>
-        <HStack spacing={2} alignItems={"center"}>
+        <HStack alignItems={"center"}>
           <Link to={"/create"}>
             <Button>
               <VscDiffAdded fontSize={20} />
