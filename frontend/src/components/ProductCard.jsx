@@ -83,7 +83,14 @@ const ProductCard = ({ _id, name, price, image }) => {
       _hover={{ transform: "translateY(-5px)", shadow: "xl" }}
       bg={bg}
     >
-      <Image src={image} alt={name} width="full" height="48px" fit="contain" />
+      <Image
+        src={image}
+        alt={name}
+        width="full"
+        height="48"
+        fit="cover
+      "
+      />
       <Box>
         <Heading as="h3" size="md" m={2}>
           {name}
